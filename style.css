@@ -1,0 +1,138 @@
+         body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+ 
+        .custom-nav {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            padding: 10px 20px;
+        }
+
+        .nav-link {
+            color: #cfcfcf !important;
+            margin: 0 10px;
+            font-size: 16px !important;
+        }
+
+        .nav-link:hover {
+            color: #fff !important;
+        }
+
+        .btn-gradient {
+            background: linear-gradient(90deg, #7b2cff, #d633ff);
+            border: none;
+            color: white;
+            padding: 10px 22px;
+            border-radius: 30px;
+            font-weight: 500;
+        }
+
+ 
+        .hero {
+            position: relative;
+            padding: 120px 0;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: -200px;
+            right: -200px;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(140, 0, 255, 0.6), transparent 70%);
+            filter: blur(120px);
+            z-index: 0;
+        }
+
+        .hero-title {
+            font-size: 60px;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .hero-sub {
+            color: #bdbdbd;
+            margin-top: 20px;
+        }
+
+ 
+        .image-stack {
+            position: relative;
+            width: 420px;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .card-img {
+            position: absolute;
+            width: 100%;
+            border-radius: 25px;
+            box-shadow: 0 20px 60px rgba(124, 0, 255, 0.4);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .card-img:nth-child(1) {
+            transform: rotate(-10deg) translateY(30px);
+            opacity: 0.4;
+        }
+
+        .card-img:nth-child(2) {
+            transform: rotate(-5deg) translateY(15px);
+            opacity: 0.7;
+        }
+
+        .card-img:nth-child(3) {
+            position: relative;
+            transform: rotate(0);
+            opacity: 1;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+ 
+        .play-btn {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+ 
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 40px;
+            }
+
+            .hero {
+                text-align: center;
+            }
+
+            .image-stack {
+                margin-top: 50px;
+            }
+        }
+ 
