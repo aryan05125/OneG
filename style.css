@@ -982,7 +982,7 @@ letter-spacing: 0px;
     
 }
 .orbit-item{
-     width:50px;
+     width:70px;
     height:50px;
     
 
@@ -991,13 +991,12 @@ letter-spacing: 0px;
 
     transform:
         rotate(calc(45deg * var(--i)))
-        translate(150px)
+        translate(140px)
         rotate(calc(-45deg * var(--i)));
 }
 .center-logo{
     position:absolute;
-    width:px;
-    height:px;
+     
     border-radius:50%;
     background:radial-gradient(circle,#39316C,#150F3D);
     display:flex;
