@@ -626,9 +626,6 @@ body {
     .plus-group span{
         left: 30% !important;
     }
-
-     
-
 }
 .features-section{
     background:#000;
@@ -643,6 +640,74 @@ body {
     }
 
 }
+
+.Smarter-h2{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 300;
+    font-style: Light;
+    font-size: 48px;
+    line-height: 61.69px;
+    letter-spacing: 0px;
+
+}
+.Smarter-span{
+
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 61.69px;
+    letter-spacing: 0px;
+    color: #9D00FF;
+}
+.Smarter-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: Light;
+    line-height: 37.01px;
+    letter-spacing: 0px;
+}
+.border{
+    width: 430px;
+    height: 509px;
+    top: 1407px;
+    left: 95px;
+    border-radius: 25px;
+    border: 1px;
+    background-color: #39316C;
+}
+
+.border span{
+    
+    width: 80px;
+    height: 80px;
+    top: 1426px;
+    left: 125px;
+    border: 1.18px;
+    border-radius: 100%;
+    background-color: #2C2D7A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Light-h2{
     font-size: 48px;     
     font-family: 'Poppins', sans-serif; 
