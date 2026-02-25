@@ -258,7 +258,6 @@ body {
     justify-content: flex-end;
     transform: translateX(-40px);
 }
-
 .image-stack {
     position: relative;
     width: 308px;
@@ -499,4 +498,164 @@ body {
         display: none;
     }
 
+}
+.money-section{
+    background:#000;
+    color:white;
+}
+
+ 
+.money-text{
+    color:#aaa;
+    letter-spacing:1px;
+    font-size:14px;
+}
+
+
+ 
+.plus-group span{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    margin-right:10px;
+    position:relative;
+}
+
+.plus-group span::before,
+.plus-group span::after{
+    content:"";
+    position:absolute;
+    background:white;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.plus-group span::before{
+    width:1px;
+    height:100%;
+}
+
+.plus-group span::after{
+    width:100%;
+    height:1px;
+}
+
+
+ 
+.stats-line{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    gap:12px;
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+.stat-number{
+    font-size:28px;
+    font-weight:600;
+    color:white;
+}
+
+.stat-label{
+    color:#aaa;
+    margin-right:10px;
+}
+
+.stat-plus{
+    font-size:20px;
+    color:#aaa;
+    margin:0 10px;
+}
+
+
+ 
+@media(max-width:991px){
+
+    .stats-line{
+        justify-content:center;
+        text-align:center;
+    }
+
+    .money-text{
+        text-align:center;
+    }
+
+}
+
+
+ 
+@media(max-width:576px){
+
+    .stats-line{
+        flex-direction:column;
+        gap:6px;
+    }
+
+    .stat-plus{
+        display:none;
+    }
+
+    .stat-number{
+        font-size:24px;
+    }
+
+}
+.features-section{
+    background:#000;
+    color:white;
+}
+
+ 
+@media (min-width:1200px){
+
+    .features-section .container{
+        max-width:1350px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.Light-h2{
+    font-size: 48px;     
+    font-family: 'Poppins', sans-serif; 
+    font-style: Light;        
+    font-weight: 300; 
+    line-height: 76px; 
+    letter-spacing: 0px;
+}
+.SDKs{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 76px;
+    letter-spacing: 0px;
+
+    color: #7C66FF;
+
+}
+.Light-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 37.01px;
+    letter-spacing: 0px;
+}
+light-img{
+    width: 597px;
+    height: 330px;
+    top: 8265px;
+    left: 127px;
+    border-radius: 20px;  
 }
