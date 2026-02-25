@@ -75,7 +75,7 @@ body{
     position:absolute;
     width:34px;
     height:34px;
-    bottom:140px;
+    bottom:20px;
     left:110px;
     z-index:3;
 }
@@ -441,7 +441,7 @@ body{
     }
     .star4{ 
         top:47%;
-        right:17%; 
+        right:14%; 
      }
 
     .image-stack::after{
@@ -466,8 +466,9 @@ body{
     }
 
     .plus-small{
-        width:18px;
-        height:18px;
+        width:30px;
+        height:30px;
+        top: 87%;
     }
 
 }
