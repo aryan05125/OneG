@@ -358,37 +358,23 @@ body{
     }
 
     .star1{
-         top:14%; 
+         top:15%; 
          left:20%; 
         }
     .star2{ 
-        top:40%;
+        top:42%;
         right:48%; 
     }
     .star3{ 
-        top:44%;
+        top:47%;
         right:40%; 
      }
      .star4{ 
-        top:48%;
+        top:53%;
         right:30%; 
      }
 
-    .plus-small{
-        width:35px;
-        height:35px;
-        bottom:8%;
-        left:20%;
-    }
-
-    .hero-buttons{
-        flex-direction:column;
-        gap:20px;
-    }
-
-    .divider-vertical{ 
-        display:none; 
-    }
+    
 
 }
 
@@ -465,6 +451,20 @@ body{
         width:30px;
         height:30px;
         top: 87%;
+    }
+    .plus-small{
+        width:30px;
+        height:30px;
+        top: 87%;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .divider-vertical{ 
+        display:none; 
     }
 
 }
