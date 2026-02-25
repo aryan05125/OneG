@@ -384,8 +384,8 @@ body {
     }
 
     .star1 {
-        top: 15%;
-        left: 20%;
+        top: 14%;
+        left: 18%;
     }
 
     .star2 {
@@ -395,12 +395,12 @@ body {
 
     .star3 {
         top: 47%;
-        right: 40%;
+        right: 38%;
     }
 
     .star4 {
         top: 53%;
-        right: 30%;
+        right: 26%;
     }
 
 
@@ -438,26 +438,35 @@ body {
         height: 260px;
 
 
+        
     }
-
     .star1 {
-        top: 14%;
-        left: 10%;
+        top: 11%;
+        left: 6%;
+        width: 60px !important;
+        height: 60px !important;
+
     }
 
     .star2 {
         top: 38%;
         right: 40%;
+        width: 60px !important;
+        height: 60px !important;
     }
 
     .star3 {
         top: 42%;
-        right: 30%;
+        right: 25%;
+        width: 60px !important;
+        height: 60px !important;
     }
 
     .star4 {
         top: 47%;
-        right: 14%;
+        right: 10%;
+        width: 60px !important;
+        height: 60px !important;
     }
 
     .image-stack::after {
@@ -986,13 +995,12 @@ margin-left: 20px;
 }
 .center-logo{
     position:absolute;
-     
     border-radius:50%;
     background:radial-gradient(circle,#39316C,#150F3D);
     display:flex;
     align-items:center;
     justify-content:center;
-    top:36%;
+    top:37%;
     transform:translate(-50%,-50%);
     box-shadow:0 6px  #7C66FF;
  
