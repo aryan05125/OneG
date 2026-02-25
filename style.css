@@ -366,7 +366,7 @@ body{
     }
 
     .star1{
-         top:8%; 
+         top:18%; 
          left:4%; 
         }
     .star2{ 
@@ -415,6 +415,11 @@ body{
     .hero h1{ 
         font-size:32px; 
     }
+    .hero p{
+        text-align:center;
+        margin:auto;
+        margin-bottom: 19%;
+    }
 
     .image-stack{
         width:220px;
@@ -422,6 +427,23 @@ body{
         
 
     }
+    .star1{
+        top:14%; 
+        left:10%; 
+       }
+   .star2{ 
+       top:38%;
+       right:40%; 
+   }
+   .star3{ 
+    top:42%;
+    right:30%; 
+    }
+    .star4{ 
+        top:47%;
+        right:17%; 
+     }
+
     .image-stack::after{
         position:absolute;
         width:220px;
