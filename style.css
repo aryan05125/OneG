@@ -955,16 +955,7 @@ letter-spacing: 0px;
         width:260px;
         height:260px;
     }
-
-    .orbit-item{
-        width:55px;
-        height:55px;
-
-        transform:
-            rotate(calc(45deg * var(--i)))
-            translate(110px)
-            rotate(calc(-45deg * var(--i)));
-    }
+ 
 
     .center-logo{
         width:120px;
@@ -982,8 +973,8 @@ letter-spacing: 0px;
     
 }
 .orbit-item{
-     width:70px;
-    height:50px;
+     width: 40px;
+    height:40px;
     
 
     top:50%;
@@ -991,7 +982,7 @@ letter-spacing: 0px;
 
     transform:
         rotate(calc(45deg * var(--i)))
-        translate(140px)
+        translate(110px)
         rotate(calc(-45deg * var(--i)));
 }
 .center-logo{
@@ -1002,7 +993,7 @@ letter-spacing: 0px;
     display:flex;
     align-items:center;
     justify-content:center;
-    top:40%;
+    top:40%
     transform:translate(-50%,-50%);
     box-shadow:0 6px  #7C66FF;
  
@@ -1010,4 +1001,36 @@ letter-spacing: 0px;
 .center-logo p{
     font-size: 20px;
 }
+.orbit-item img{
+    width:75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+}
+
+@media(max-width:320px) {
+    .orbit-item img{
+        width:50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .center-logo p{
+        font-size: 15px;
+    }
+    .center-logo{
+        width:100px;
+        height:100px;
+    }
+    .orbit-item{
+        width: 60px;
+       height:60px;
+       
+margin-left: 10px;   
+       transform:
+           rotate(calc(45deg * var(--i)))
+           translate(110px)
+           rotate(calc(-45deg * var(--i)));
+   }
+    
 }
