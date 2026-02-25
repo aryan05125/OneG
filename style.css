@@ -464,7 +464,7 @@ body {
 
     .star4 {
         top: 47%;
-        right: 10%;
+        right: 11%;
         width: 60px !important;
         height: 60px !important;
     }
@@ -1033,7 +1033,7 @@ margin-left: 20px;
         width: 60px;
        height:60px;
        
-margin-left: 10px;   
+       margin-left: 10px;   
        transform:
            rotate(calc(45deg * var(--i)))
            translate(110px)
