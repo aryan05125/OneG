@@ -769,100 +769,111 @@ body {
 
  
 .star{
-    width:60px;
-    height:60px;
+    width:85px;
+    height:85px;
     background:white;
     clip-path:polygon(
         50% 0%, 60% 40%, 100% 50%, 60% 60%,
         50% 100%, 40% 60%, 0% 50%, 40% 40%
     );
+    bottom:80%;
 }
 
 
  
 .payout-title{
-    font-size:48px;
-    font-weight:600;
+    font-size:38px;
+    font-weight:300;
+    font-style: Light;
+    line-height: 38px;
+    letter-spacing:0px;
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 .gradient-text{
-    background:linear-gradient(90deg,#caa6ff,#9b5cff,#7b00ff);
+    font-family: 'Poppins', sans-serif;
+     
+    background:linear-gradient(90deg,#FFFFFF,#9D00FF);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
 
 .payout-text{
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 300;
+    font-style: Light;
+    font-size: 22px;
+line-height: 37px;
+letter-spacing: 0px;
     color:#aaa;
-    max-width:500px;
-    margin-top:20px;
+    margin-top:180px;
 }
 
 
  
 .visit-btn{
-    padding:12px 34px;
+    padding:12px 84px;
     border-radius:30px;
     background:transparent;
     border:1px solid #aaa;
     color:white;
+    font-size: 18px;
 }
 
 .circle-arrow{
-    width:48px;
-    height:48px;
+    width:55px;
+    height:55px;
     border-radius:50%;
     border:1px solid #aaa;
     display:flex;
     align-items:center;
     justify-content:center;
+    
 }
-
-
- 
 .orbit-wrapper{
     position:relative;
     width:420px;
     height:420px;
     margin:auto;
 }
-
-
- 
 .center-logo{
     position:absolute;
-    width:160px;
-    height:160px;
+    width:193.19924926757812px;
+    height:193.19924926757812px;
     border-radius:50%;
     background:radial-gradient(circle,#39316C,#150F3D);
     display:flex;
     align-items:center;
     justify-content:center;
-    top:50%;
-    left:50%;
+    top:31%;
+    left:63%;
     transform:translate(-50%,-50%);
-    box-shadow:0 0 40px rgba(123,0,255,0.5);
-}
-
-.center-logo img{
-    width:70px;
-}
-
-
+    box-shadow:0 6px  #7C66FF;
  
-.orbit{
+}
+
+ .orbit{
+    top:20%;
+
+    left:50%;
+
     position:absolute;
-    width:100%;
-    height:100%;
+     
     border-radius:50%;
     animation:rotateOrbit 20s linear infinite;
 }
 
-
+.center-title{
+    font-size: 36.87px;
+}
  
 .orbit-item{
     position:absolute;
-    width:70px;
-    height:70px;
+    width:100px;
+    height:100px;
     border-radius:50%;
     background:white;
     display:flex;
@@ -879,7 +890,9 @@ body {
 }
 
 .orbit-item img{
-    width:40px;
+    width:85px;
+    height: 85px;
+    border-radius: 100%;
 }
 
  
@@ -904,10 +917,36 @@ body {
     .orbit-item{
         transform:
             rotate(calc(45deg * var(--i)))
-            translate(140px)
+            translate(190px)
             rotate(calc(-45deg * var(--i)));
     }
-
+    .visit-btn{
+        padding:12px 84px;
+        border-radius:30px;
+        background:transparent;
+        border:1px solid #aaa;
+        color:white;
+        font-size: 18px;
+        
+    }
+    .center-logo{
+     
+        top:45%;
+        left:50%;
+        
+     
+    }
+    .orbit{
+        top:30%;
+    
+        left:35%;
+    
+        position:absolute;
+         
+        border-radius:50%;
+        animation:rotateOrbit 20s linear infinite;
+    }
+    
 }
 
 @media(max-width:576px){
@@ -931,5 +970,45 @@ body {
         width:120px;
         height:120px;
     }
+    .star{
+        width:85px;
+        height:85px;
+        background:white;
+        clip-path:polygon(
+            50% 0%, 60% 40%, 100% 50%, 60% 60%,
+            50% 100%, 40% 60%, 0% 50%, 40% 40%
+        );
+        bottom:85%;
+    
+}
+.orbit-item{
+     width:50px;
+    height:50px;
+    
 
+    top:50%;
+    left:50%;
+
+    transform:
+        rotate(calc(45deg * var(--i)))
+        translate(150px)
+        rotate(calc(-45deg * var(--i)));
+}
+.center-logo{
+    position:absolute;
+    width:px;
+    height:px;
+    border-radius:50%;
+    background:radial-gradient(circle,#39316C,#150F3D);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top:40%;
+    transform:translate(-50%,-50%);
+    box-shadow:0 6px  #7C66FF;
+ 
+}
+.center-logo p{
+    font-size: 20px;
+}
 }
