@@ -601,6 +601,35 @@ body {
     }
 
 }
+@media(max-width:576px){
+
+    .stats-line{
+        flex-direction:column;
+        gap:6px;
+    }
+
+    .stat-plus{
+        display:none;
+    }
+    .plus-group span{
+        left: 38%;
+    }
+
+    .stat-number{
+        font-size:24px;
+    }
+
+}
+@media(max-width:375px){
+
+
+    .plus-group span{
+        left: 30% !important;
+    }
+
+     
+
+}
 .features-section{
     background:#000;
     color:white;
