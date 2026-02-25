@@ -69,7 +69,7 @@ body{
     }
 .star4{ top:250px;
         right:80px; 
-     }
+     }  
 
 .plus-small{
     position:absolute;
@@ -192,7 +192,8 @@ body{
 }
 
 .hero h1 span{
-    color:#9b5cff; 
+    color:#9b5cff;
+     
 }
 
 .hero p{
@@ -323,8 +324,8 @@ body{
     .hero p{
         text-align:center;
         margin:auto;
+        margin-bottom: 18%;  
     }
-
     .text-col{
         align-items:center;
         text-align:center;
@@ -335,54 +336,49 @@ body{
         transform:none;
         margin-top:40px;
     }
-
     .image-stack{
         width:260px;
         height:300px;
     }
-    /* .image-stack::after{
-        position:absolute;
-        width:220px;
-        height:250px ;
-        left:10%;
-
-     }
-     .image-stack::before{
-        position:absolute;
-        width:220px;
-        height:250px ;
-        left:18%;
-
-     } */
-
+    .image-stack::after{
+        width:260px;
+        height:300px;
+    }
+    .image-stack::before{
+        width:260px;
+        height:300px;
+    }
     .main-img{
         width:100%;
         height:100%;
     }
-
      .star{
         width:60px;
         height:60px;
     }
 
     .star1{
-         top:18%; 
-         left:4%; 
+         top:14%; 
+         left:20%; 
         }
     .star2{ 
-        top:12%;
-        right:6%; 
+        top:40%;
+        right:48%; 
     }
     .star3{ 
-        top:30%; 
-        right:3%;
+        top:44%;
+        right:40%; 
+     }
+     .star4{ 
+        top:48%;
+        right:30%; 
      }
 
     .plus-small{
-        width:22px;
-        height:22px;
+        width:35px;
+        height:35px;
         bottom:8%;
-        left:5%;
+        left:20%;
     }
 
     .hero-buttons{
