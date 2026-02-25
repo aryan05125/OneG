@@ -503,16 +503,11 @@ body {
     background:#000;
     color:white;
 }
-
- 
 .money-text{
     color:#aaa;
     letter-spacing:1px;
     font-size:14px;
 }
-
-
- 
 .plus-group span{
     display:inline-block;
     width:12px;
@@ -540,9 +535,6 @@ body {
     width:100%;
     height:1px;
 }
-
-
- 
 .stats-line{
     display:flex;
     align-items:center;
@@ -582,6 +574,9 @@ body {
     .money-text{
         text-align:center;
     }
+    .plus-group span{
+        left: 43%;
+    }
 
 }
 
@@ -596,6 +591,9 @@ body {
 
     .stat-plus{
         display:none;
+    }
+    .plus-group span{
+        left: 38%;
     }
 
     .stat-number{
@@ -616,15 +614,6 @@ body {
     }
 
 }
-
-
-
-
-
-
-
-
-
 .Light-h2{
     font-size: 48px;     
     font-family: 'Poppins', sans-serif; 
