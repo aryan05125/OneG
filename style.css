@@ -1164,17 +1164,11 @@ body {
     gap: 20px;
     width: max-content;
 
-    animation: scrollBanks 20s linear infinite;
+    animation: scrollBanks 1000s linear infinite;
 }
-
-
-
 .bank-track:hover {
     animation-play-state: paused;
 }
-
-
-
 .bank-pill {
     display: flex;
     align-items: center;
@@ -1191,7 +1185,7 @@ body {
     background: #3a3a3a;
     white-space: nowrap;
     color: white;
-    transition: .3s;
+    transition: .10s;
 }
 
 .bank-pill:hover {
@@ -1203,14 +1197,14 @@ body {
     height: 42.77743148803711px;
 }
 
-/* @keyframes scrollBanks{
+@keyframes scrollBanks{
     0%{
         transform:translateX(0);
     }
     100%{
-        transform:translateX(-40%);
+        transform:translateX(-400%);
     }
-} */
+}
 @media(max-width:768px) {
 
     .bank-title {
@@ -1233,14 +1227,11 @@ body {
     }
 
 }
-
-
 .router-section {
     padding: 120px 0;
     background: #000;
     overflow: hidden;
 }
-
 .router-star {
     width: 85px;
     height: 85px;
