@@ -1698,8 +1698,7 @@ body {
     line-height: 61.69px;
     letter-spacing: 0px;
     color: white;
-    font-weight: 600;
-    font-style: 'SemiBold';
+    
 
 }
 
@@ -1717,13 +1716,20 @@ body {
 }
 
 .feature-sub {
+    font-family: 'Poppins', sans-serif;
     color: #bfbfbf;
     max-width: 600px;
     margin: 20px auto 60px;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 37.01px;
+    letter-spacing: 0px;    
 }
 
  
 .feature-card {
+    width: 360px;
+    height: 338px;
     position: relative;
     padding: 30px;
     border-radius: 22px;
@@ -1752,7 +1758,7 @@ body {
 .card-icon {
     width: 50px;
     height: 50px;
-    border-radius: 12px;
+    border-radius: 8.57px;
     background: rgba(199, 189, 255, 0.3);
     display: flex;
     align-items: center;
@@ -1766,15 +1772,31 @@ body {
 }
 
 .card-title {
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 300;
+    font-size: 23px;
     margin-top: 10px;
+    line-height: 32.9px;
 }
 
 .card-desc {
-    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-style: Light;
+    font-size: 25px;
     color: #cfcfcf;
     margin-top: 10px;
-    line-height: 1.6;
+    line-height: 32.9px;
+}
+.card-description{
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 300;
+    font-style: Light;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0px;
 }
 
  
