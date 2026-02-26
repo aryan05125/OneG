@@ -1691,28 +1691,19 @@ body {
     padding: 120px 0;
 }
 
- 
 .feature-title {
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     line-height: 61.69px;
-    letter-spacing: 0px;
     color: white;
-    
-
 }
 
-.gradient-feature{
+.gradient-feature {
     background: linear-gradient(90deg, #FFFFFF, #9D00FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
     font-size: 48px;
-    line-height: 61.69px;
-    letter-spacing: 0px;
-    font-style: Bold;
-
 }
 
 .feature-sub {
@@ -1720,13 +1711,10 @@ body {
     color: #bfbfbf;
     max-width: 600px;
     margin: 20px auto 60px;
-    font-style: Light;
     font-size: 18px;
     line-height: 37.01px;
-    letter-spacing: 0px;    
 }
 
- 
 .feature-card {
     width: 360px;
     height: 338px;
@@ -1735,10 +1723,8 @@ body {
     border-radius: 22px;
     color: white;
     height: 100%;
-
     background: linear-gradient(135deg, #39316C, #150F3D);
     border: 1px solid rgba(214, 207, 255, 0.3);
-
     transition: 0.3s;
 }
 
@@ -1751,7 +1737,7 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-size: 22px;
+    font-size: 50px;
     opacity: 0.8;
 }
 
@@ -1764,6 +1750,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 20px 0;
+    font-size: 22px;
 }
 
 .card-small {
@@ -1773,8 +1760,6 @@ body {
 
 .card-title {
     font-family: 'Poppins', sans-serif;
-
-    font-size: 300;
     font-size: 23px;
     margin-top: 10px;
     line-height: 32.9px;
@@ -1782,37 +1767,72 @@ body {
 
 .card-desc {
     font-family: 'Poppins', sans-serif;
-font-weight: 300;
-font-style: Light;
+    font-weight: 300;
     font-size: 25px;
     color: #cfcfcf;
     margin-top: 10px;
     line-height: 32.9px;
 }
-.card-description{
-    font-family: 'Poppins', sans-serif;
 
+.card-description {
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-style: Light;
     font-size: 15px;
     line-height: 23px;
-    letter-spacing: 0px;
 }
 
- 
 .carousel-item {
     padding: 10px;
-}
-
- 
-@media (max-width: 991px) {
-    .desktop-grid {
-        display: none;
-    }
 }
 
 @media (min-width: 992px) {
     .mobile-carousel {
         display: none;
     }
+}
+
+@media (max-width: 991px) {
+
+    .desktop-grid {
+        display: none;
+    }
+
+    .feature-section {
+        padding: 80px 0;
+    }
+
+    .feature-title,
+    .gradient-feature {
+        font-size: 34px;
+        line-height: 1.4;
+    }
+
+    .feature-card {
+        width: 100%;
+        height: auto;
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .feature-section {
+        padding: 60px 0;
+    }
+
+    .feature-title,
+    .gradient-feature {
+        font-size: 26px;
+    }
+
+    .feature-sub {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .card-icon {
+        width: 44px;
+        height: 44px;
+    }
+
 }
