@@ -1452,21 +1452,24 @@ body {
     }
 
     .notify-1 {
-        left: -110px;
+        left: -130px;
+        top: -7px;
     }
 
     .notify-2 {
-        left: -110px;
+        left: -130px;
+        top: 55px;
     }
 
     .info-1 {
-        right: -30px;
+        right: -130px;
+        bottom: 80px;
     }
 
     .info-2 {
-        right: -30px;
-        top: 420px;
-    }
+        right: -130px;
+        margin-top: -150px;   
+   }
 }
 
 @media (max-width: 576px) {
@@ -1505,12 +1508,12 @@ body {
 
     .info-1 {
         right: -75px;
-        bottom: 43px;
+        bottom:48px;
     }
 
     .info-2 {
         right: -75px;
-        top: 255px;
+        top: 400px;
     }
 }
 .ecom-section {
