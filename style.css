@@ -1041,3 +1041,137 @@ margin-left: 20px;
    }
     
 }
+.bank-section{
+    background:#000;
+    color:white;
+    overflow:hidden;
+}
+.bank-title{
+    font-family: 'Poppins', sans-serif;
+    font-size:48px;
+    font-style: Light;
+    line-height: 61.69px;
+    letter-spacing: 0px;
+    font-weight:300;
+}
+.bank-subtitle{
+    color:#aaa;
+    margin-bottom:50px;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 37.01px;
+    letter-spacing: 0px;    
+}
+.bank-box{
+    width:80%;
+    max-width:1107px;
+    height: 84.31073760986328px;
+
+    margin:auto;
+    overflow:hidden;
+
+    border-radius:38.89px;
+    padding:10px ;
+    border: 0.43px;
+
+
+    background:linear-gradient(90deg,#1c1c1c,#2a2a2a);
+}
+
+
+ 
+.bank-box::before,
+.bank-box::after{
+    content:"";
+    position:absolute;
+    top:0;
+    width:100px;
+    height:100%;
+    z-index:2;
+    pointer-events:none;
+}
+
+.bank-box::before{
+    right:0;
+
+     background:linear-gradient(to right,#000,transparent);
+}
+
+.bank-box::after{
+    left:0;
+    background:linear-gradient(to left,#000,transparent);
+}
+
+
+ 
+.bank-track{
+    display:flex;
+    gap:20px;
+    width:max-content;
+
+    animation:scrollBanks 20s linear infinite;
+}
+
+
+ 
+.bank-track:hover{
+    animation-play-state:paused;
+}
+
+
+ 
+.bank-pill{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25.93px;
+    line-height: 14.91px;
+    letter-spacing: 0px;
+
+    padding:12px 22px;
+    border-radius:40px;
+
+    background:#3a3a3a;
+    white-space:nowrap;
+    color:white;
+    transition:.3s;
+}
+
+.bank-pill:hover{
+    background:#4a4a4a;
+}
+
+.bank-pill img{
+    width:42.77743148803711px;
+    height:42.77743148803711px;
+}
+
+ 
+ 
+
+ 
+@media(max-width:768px){
+
+    .bank-title{
+        font-size:28px;
+    }
+
+    .bank-box{
+        width:95%;
+        padding:15px;
+    }
+
+    .bank-pill{
+        padding:10px 18px;
+        font-size:17px;
+    }
+    .bank-pill img{
+        width:30.77743148803711px;
+        height:30.77743148803711px;
+    }
+
+}
+
