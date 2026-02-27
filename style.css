@@ -2636,7 +2636,7 @@ body {
     color: white;
 }
 
- 
+
 
 @media (max-width: 768px) {
 
@@ -2725,7 +2725,7 @@ body {
 .faq-item {
     margin-bottom: 20px;
     background: transparent;
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 12px;
     overflow: hidden;
 }
@@ -2739,7 +2739,7 @@ body {
 }
 
 .faq-question:not(.collapsed) {
-    background: rgba(124,102,255,0.08);
+    background: rgba(124, 102, 255, 0.08);
     color: #fff;
 }
 
