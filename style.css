@@ -2064,12 +2064,11 @@ body {
 
 
   
-
-.rectangle-wrapper {
+.support-wrapper {
     min-height: 100px;
 }
 
- .custom-rectangle {
+.custom-support {
     width: 100%;
     max-width: 1600px;
     height: 204px;
@@ -2078,20 +2077,248 @@ body {
         0 -11px 4px #7C66FF,
         0 -52px 100px rgba(124, 102, 255, 0.25);
 }
-.support-title{
-    font-family: 'Poppins', sans-serif;
 
-    font-style: Bold;
+ 
+.support-title {
+    font-family: 'Poppins', sans-serif;
     line-height: 69.65px;
     font-size: 48px;
-
 }
-.support-dec{
-    font-family: 'Poppins', sans-serif;
 
+.support-dec {
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-style: Light;
     font-size: 18px;
     line-height: 37.01px;
+}
 
+ 
+.support-card {
+    width: 528px;
+    height: 603px;
+    border-radius: 28px;
+    padding: 41.16px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.982);
+}
+
+.support-card2 {
+    width: 604px;
+    height: 598px;
+    border-radius: 25px;
+    padding: 41.16px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.982);
+}
+
+ 
+.support-gradient {
+    background: radial-gradient(circle at bottom right,
+            #ff7bd5 0%,
+            #6c63ff 40%,
+            #0b0f2a 80%);
+}
+
+.support-purple2 {
+    background: linear-gradient(135deg, #39316C, #150F3D);
+}
+
+ 
+.icon-box {
+    width: 58.79px;
+    height: 58.79px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.1);
+    font-size: 23px;
+}
+
+ 
+.card-heading {
+    line-height: 120%;
+    color: #FFFFFF;
+    font-size: 37.63px;
+    font-weight: 300;
+}
+
+.card-text {
+    font-weight: 300;
+    line-height: 160%;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+
+.card-heading2 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 37.63px;
+    line-height: 120%;
+}
+
+ 
+.video-box {
+    position: relative;
+}
+
+.video-box img {
+    width: 522px;
+    height: 267px;
+    border-radius: 25px;
+}
+
+.play-supportbtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+.learn-more {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.circle-support {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    justify-content: center;
+    background-color: #7C66FF;
+}
+
+.learn-more:hover {
+    color: white;
+}
+
+ 
+
+ @media (max-width: 1400px) {
+
+    .support-card,
+    .support-card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-box img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+ @media (max-width: 992px) {
+
+    .support-title {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    .support-dec {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .support-card,
+    .support-card2 {
+        padding: 30px;
+    }
+
+    .card-heading,
+    .card-heading2 {
+        font-size: 30px;
+    }
+
+    .custom-support {
+        height: auto;
+        padding-bottom: 40px;
+        border-radius: 80px 80px 0 0;
+    }
+}
+
+ @media (max-width: 768px) {
+
+    .support {
+        padding-top: 40px;
+    }
+
+    .support-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .support-dec {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+
+    .card-heading,
+    .card-heading2 {
+        font-size: 24px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .support-card,
+    .support-card2 {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .custom-support {
+        border-radius: 50px 50px 0 0;
+        box-shadow:
+            0 -6px 3px #7C66FF,
+            0 -20px 50px rgba(124, 102, 255, 0.25);
+    }
+
+    .icon-box {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .play-supportbtn {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+ @media (max-width: 480px) {
+
+    .support-title {
+        font-size: 24px;
+    }
+
+    .card-heading,
+    .card-heading2 {
+        font-size: 22px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .support-card,
+    .support-card2 {
+        padding: 20px;
+    }
 }
