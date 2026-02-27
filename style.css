@@ -2061,3 +2061,37 @@ body {
     }
 
 }
+
+
+  
+
+.rectangle-wrapper {
+    min-height: 100px;
+}
+
+ .custom-rectangle {
+    width: 100%;
+    max-width: 1600px;
+    height: 204px;
+    border-radius: 184px 184px 0 0;
+    box-shadow:
+        0 -11px 4px #7C66FF,
+        0 -52px 100px rgba(124, 102, 255, 0.25);
+}
+.support-title{
+    font-family: 'Poppins', sans-serif;
+
+    font-style: Bold;
+    line-height: 69.65px;
+    font-size: 48px;
+
+}
+.support-dec{
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 37.01px;
+
+}
