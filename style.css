@@ -2532,7 +2532,7 @@ body {
 @media (max-width: 320px) {
 
     .sdk-image-wrapper {
-        width: 320px !important;
+        width: 300px !important;
         height: 200px !important;
     
         border-radius: 20px;
