@@ -2656,7 +2656,6 @@ body {
     overflow: hidden;
 }
 
- 
 .faq-section::before {
     content: "";
     position: absolute;
@@ -2670,7 +2669,6 @@ body {
     z-index: 0;
 }
 
- 
 .faq-bg-text {
     position: absolute;
     top: 50%;
@@ -2686,7 +2684,6 @@ body {
     z-index: 0;
 }
 
- 
 .faq-left {
     position: relative;
     z-index: 2;
@@ -2720,31 +2717,62 @@ body {
     color: #7c66ff;
 }
 
- 
 .faq-right {
     position: relative;
     z-index: 2;
 }
 
 .faq-item {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .faq-question {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 10px;
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.faq-question:not(.collapsed) {
+    background: rgba(124,102,255,0.08);
+    color: #fff;
+}
+
+.faq-question:focus {
+    box-shadow: none;
 }
 
 .faq-answer {
     font-size: 15px;
     color: #b5b5b5;
     line-height: 1.7;
-    max-width: 520px;
+    background: transparent;
 }
 
- 
-@media (max-width: 991px) {
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-item {
+    background: transparent;
+}
+
+@media (max-width:1200px) {
+    .faq-bg-text {
+        font-size: 240px;
+    }
+}
+
+@media (max-width:991px) {
+
+    .faq-section {
+        padding: 90px 0;
+    }
 
     .faq-title {
         font-size: 36px;
@@ -2755,17 +2783,42 @@ body {
         left: -20px;
     }
 
+    .faq-right {
+        margin-top: 40px;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width:768px) {
+
+    .faq-section {
+        padding: 70px 0;
+    }
 
     .faq-title {
         font-size: 30px;
     }
 
-    .faq-bg-text {
-        font-size: 110px;
-        left: -10px;
+    .faq-question {
+        font-size: 16px;
     }
 
+    .faq-answer {
+        font-size: 14px;
+    }
+
+    .faq-bg-text {
+        font-size: 130px;
+        left: -10px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .faq-bg-text {
+        font-size: 90px;
+    }
+
+    .faq-title {
+        font-size: 26px;
+    }
 }
