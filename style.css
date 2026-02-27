@@ -1916,7 +1916,6 @@ body {
     overflow: hidden;
 }
 
-
 .testimonial-section::before {
     content: "";
     position: absolute;
@@ -1929,7 +1928,6 @@ body {
     filter: blur(80px);
 }
 
-
 .testimonial-title {
     text-align: center;
     margin-bottom: 60px;
@@ -1939,40 +1937,30 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 300;
-    line-height: 1.4;
-    font-style: Light;
     line-height: 76px;
-
-
 }
 
-
-
-.title p {
+.title p,
+.testimonial-title p {
     font-family: 'Rubik', sans-serif;
-    color: #a1a1a1;
+    color: #FFFFFF;
     margin-top: 15px;
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-
 }
-
 
 .testimonial-card {
     width: 398px !important;
     height: 502px !important;
-
     background: linear-gradient(180deg, #39316C, #150F3D);
     border-radius: 18px;
     padding: 30px;
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 40px rgba(124, 102, 255, 0.15);
+    display: flex;
+    flex-direction: column;
 }
-
 
 .testimonial-card::after {
     content: "";
@@ -1997,14 +1985,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 300;
-    font-style: Light;
     line-height: 32.9px;
-    letter-spacing: 0px;
 }
 
 .role {
     font-weight: 300;
-    font-style: Light;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     color: #979797;
@@ -2014,8 +1999,6 @@ body {
 .review {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-style: Light;
-
     font-size: 18px;
     color: #e0e0e0;
     line-height: 35px;
@@ -2026,145 +2009,125 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
-    font-style: Bold;
-    font-style: 26px;
-    letter-spacing: -5%;
-    line-height: 100%;
-
-    
+    letter-spacing: -1px;
+    margin-top: auto;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
     display: none;
 }
 
+@media (max-width:1200px) {
 
-@media (max-width: 991px) {
-    .title h2 {
-        font-size: 30px;
+    .testimonial-card {
+        width: 100% !important;
+        height: auto !important;
     }
 }
 
-.faq-section {
-    padding: 120px 0;
-    position: relative;
-    overflow: hidden;
-}
+@media (max-width:991px) {
 
+    .testimonial-section {
+        padding: 90px 0;
+    }
 
-.faq-section::before {
-    content: "";
-    position: absolute;
-    top: -200px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 900px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(124, 102, 255, 0.18), transparent 70%);
-    filter: blur(120px);
-    z-index: 0;
-}
-
-
-.faq-bg-text {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    font-size: 320px;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.04);
-    letter-spacing: 20px;
-    white-space: nowrap;
-    pointer-events: none;
-    user-select: none;
-    z-index: 0;
-}
-
-
-.faq-left {
-    position: relative;
-    z-index: 2;
-}
-
-.star {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.faq-title {
-    font-size: 48px;
-    font-weight: 300;
-    line-height: 1.2;
-}
-
-.faq-title span {
-    background: linear-gradient(90deg, #c7bfff, #7c66ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 600;
-}
-
-.chat-help {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #a5a5a5;
-}
-
-.chat-help span {
-    color: #7c66ff;
-}
-
-
-.faq-right {
-    position: relative;
-    z-index: 2;
-}
-
-.faq-item {
-    margin-bottom: 35px;
-}
-
-.faq-question {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.faq-answer {
-    font-size: 15px;
-    color: #b5b5b5;
-    line-height: 1.7;
-    max-width: 520px;
-}
-
-
-@media (max-width: 991px) {
-
-    .faq-title {
+    .testimonial-title h2 {
         font-size: 36px;
+        line-height: 48px;
     }
 
-    .faq-bg-text {
-        font-size: 180px;
-        left: -20px;
+    .testimonial-title p {
+        font-size: 18px;
     }
 
+    .testimonial-card {
+        width: 100% !important;
+        height: auto !important;
+        padding: 26px;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .review {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .logo {
+        margin-top: 30px;
+    }
+
+    .testimonial-section::before {
+        width: 600px;
+        height: 300px;
+        bottom: -120px;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width:768px) {
 
-    .faq-title {
-        font-size: 30px;
+    .testimonial-section {
+        padding: 70px 0;
     }
 
-    .faq-bg-text {
-        font-size: 110px;
-        left: -10px;
+    .testimonial-title h2 {
+        font-size: 28px;
+        line-height: 38px;
     }
 
+    .testimonial-title p {
+        font-size: 15px;
+    }
+
+    .testimonial-card {
+        padding: 22px;
+        border-radius: 16px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .review {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .testimonial-section::before {
+        width: 500px;
+        height: 250px;
+        filter: blur(60px);
+    }
+}
+
+@media (max-width:480px) {
+
+    .testimonial-title h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .testimonial-card {
+        padding: 18px;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .review {
+        font-size: 13px;
+    }
 }
 
 
