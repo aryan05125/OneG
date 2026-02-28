@@ -1,5 +1,5 @@
 body {
-    
+
     font-family: 'Poppins', sans-serif;
     background: #000;
     color: white;
@@ -915,6 +915,7 @@ body {
     .payout-title {
         text-align: center;
     }
+
     .star1 {
         width: 85px;
         height: 85px;
@@ -922,8 +923,8 @@ body {
         clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%,
                 50% 100%, 40% 60%, 0% 50%, 40% 40%);
         bottom: 85%;
-     }
-    
+    }
+
 }
 
 
@@ -978,8 +979,9 @@ body {
         width: 45px;
         height: 45px;
         margin-top: 25px !important;
-        margin-right:   130px !important;
+        margin-right: 130px !important;
     }
+
     .star1 {
         width: 50px;
         height: 50px;
@@ -987,8 +989,8 @@ body {
         clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%,
                 50% 100%, 40% 60%, 0% 50%, 40% 40%);
         bottom: 85%;
-        left: 50% ;
-     }
+        left: 50%;
+    }
 }
 
 
@@ -1015,11 +1017,12 @@ body {
         width: 34px;
         height: 34px;
     }
+
     .circle-arrow {
         width: 45px;
         height: 45px;
         margin-top: 25px !important;
-        margin-right:   70px !important;
+        margin-right: 70px !important;
     }
 }
 
@@ -1444,6 +1447,7 @@ body {
         right: -65px;
         top: 400px;
     }
+
     .router-star {
         width: 50px;
         height: 50px;
@@ -1779,6 +1783,7 @@ body {
     }
 
 }
+
 .testimonial-section {
     padding: 120px 0;
     position: relative;
@@ -2311,6 +2316,7 @@ body {
     bottom: 80%;
     margin-left: 80% !important;
 }
+
 .ecosystem-title {
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
@@ -2395,8 +2401,9 @@ body {
     .star-icon {
         display: none;
     }
+
     .ecosystem-star {
-        
+
         bottom: 50%;
         margin-left: -0px !important;
     }
@@ -2415,10 +2422,11 @@ body {
                 #7C66FF4D,
                 transparent 60%);
     }
+
     .ecosystem-star {
         width: 50px;
-        height: 50px    ;
-        
+        height: 50px;
+
         bottom: 50%;
         margin-left: -0px !important;
     }
