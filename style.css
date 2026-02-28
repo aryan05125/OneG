@@ -914,6 +914,15 @@ body {
     .payout-title {
         text-align: center;
     }
+    .star {
+        width: 85px;
+        height: 85px;
+        background: white;
+        clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%,
+                50% 100%, 40% 60%, 0% 50%, 40% 40%);
+        bottom: 85%;
+     }
+    
 }
 
 
@@ -961,12 +970,24 @@ body {
     .visit-btn {
         padding: 10px 40px;
         font-size: 16px;
+        margin-left: 10px;
     }
 
     .circle-arrow {
         width: 45px;
         height: 45px;
+        margin-top: 25px !important;
+        margin-right:   130px !important;
     }
+    .star {
+        width: 85px;
+        height: 85px;
+        background: white;
+        clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%,
+                50% 100%, 40% 60%, 0% 50%, 40% 40%);
+        bottom: 85%;
+        left: 10%;
+     }
 }
 
 
@@ -992,6 +1013,12 @@ body {
     .orbit-item img {
         width: 34px;
         height: 34px;
+    }
+    .circle-arrow {
+        width: 45px;
+        height: 45px;
+        margin-top: 25px !important;
+        margin-right:   70px !important;
     }
 }
 
