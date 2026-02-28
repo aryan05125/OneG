@@ -1875,12 +1875,12 @@ body{
 .custom-support {
     width: 100%;
     max-width: 1600px;
-    border-radius: 184px 184px 0 0;
+    border-radius:   180px 184px 0 0;
     box-shadow:
-        0 -11px 4px #7C66FF,
+        0 -11px #7C66FF,
         0 -52px 100px rgba(124, 102, 255, 0.25);
 }
-
+ 
 
 .support-title {
     font-family: 'Poppins', sans-serif;
