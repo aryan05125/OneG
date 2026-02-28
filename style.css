@@ -2766,21 +2766,27 @@ body {
 
 
 .cta-title {
+    font-family: 'Poppins', sans-serif;
+    line-height: 37px;
     font-size: 48px;
     font-weight: 300;
     margin-bottom: 15px;
 }
 
 .cta-title span {
-    background: linear-gradient(90deg, #c7bfff, #7c66ff);
+    background: linear-gradient(90deg, #FFFFFF, #7C66FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
 
 .cta-desc {
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 400;
     color: #a5a5a5;
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 100%;
     margin-bottom: 60px;
 }
 
@@ -2792,37 +2798,39 @@ body {
 }
 
 .cta-btn {
-    padding: 18px 80px;
-    border-radius: 14px;
+width: 380px;
+height: 81px;
+
+    border-radius: 15px;
     border: none;
     font-size: 18px;
     color: white;
-    background: linear-gradient(90deg, #7c66ff, #5a49c9);
-    box-shadow: 0 0 40px rgba(124, 102, 255, 0.5);
+    background: linear-gradient(90deg, #7C66FF, #4A3D99);
 }
 
 
 .you-badge {
     position: absolute;
-    right: -75px;
+    right: -80px;
     top: 100%;
     transform: translateY(-50%);
     padding: 6px 18px;
     border-radius: 20px;
     font-size: 14px;
-    background: linear-gradient(90deg, #ff00cc, #7c66ff);
-    border: 2px solid white;
+    background: linear-gradient(90deg, #9D00FF);
+    border: 4px solid #FFFFFF;
     box-shadow: 0 0 15px rgba(255, 0, 204, 0.6);
 }
 
 
 .cursor {
     position: absolute;
-    right: -15px;
+    right: -14px;
     top: 90%;
     transform: translateY(-50%);
-    width: 26px;
-}
+    width: 28.695197780007618px;
+    height: 28.972283926325815px;
+ }
 
 
 @media (max-width: 991px) {
@@ -2831,10 +2839,8 @@ body {
         font-size: 36px;
     }
 
-    .cta-btn {
-        padding: 16px 55px;
-        font-size: 16px;
-    }
+    
+    
 
     .you-badge {
         right: -60px;
@@ -2843,6 +2849,25 @@ body {
     .cursor {
         right: 0;
     }
+    .you-badge {
+        position: absolute;
+        top: 110px;
+        transform: translateY(-50%);
+        padding: 6px 18px;
+        border-radius: 20px;
+        font-size: 14px;
+        background: linear-gradient(90deg, #9D00FF);
+        border: 4px solid #FFFFFF;
+        box-shadow: 0 0 15px rgba(255, 0, 204, 0.6);
+    }
+    
+.cursor {
+    position: absolute;
+    top: 80px;
+    transform: translateY(-50%);
+    width: 24.695197780007618px;
+    height: 24.972283926325815px;
+ }
 }
 
 @media (max-width: 576px) {
@@ -2864,4 +2889,213 @@ body {
         right: -50px;
         font-size: 12px;
     }
+    .cta-btn {
+        width: 200px;
+        height: 60px;
+     }
+     .you-badge {
+        position: absolute;
+        right: -0.1px;
+        top: 100px;
+        transform: translateY(-50%);
+        padding: 6px 18px;
+        border-radius: 20px;
+        font-size: 14px;
+        background: linear-gradient(90deg, #9D00FF);
+        border: 4px solid #FFFFFF;
+        box-shadow: 0 0 15px rgba(255, 0, 204, 0.6);
+    }
+    
+.cursor {
+    position: absolute;
+    left: 60%;
+    top: 70px;
+    transform: translateY(-50%);
+    width: 24.695197780007618px;
+    height: 24.972283926325815px;
+ }
+
+}
+.footer-section {
+    background: #05060a;
+    color: #cbd5e1;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-logo {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer-logo  {
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36.87px;
+    line-height: 100%;
+    color: white;
+}
+
+.footer-title {
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 300;
+    font-style: ExtraBold;
+    font-size: 22.25px ;
+    line-height: 100%;
+    color: white;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    font-family: 'Rubik', sans-serif;
+
+    text-decoration: none;
+    color: #9ca3af;
+    font-size: 18.54px;
+    line-height: 100%;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 25px;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.footer-bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-text {
+    font-family: 'Rubik', sans-serif;
+
+    color: #9ca3af;
+    font-size: 14x;
+    white-space: nowrap;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #2a2f3a, #1a1f29);
+    border-radius: 18.91px;
+    padding: 4px;
+    min-width: 320px;
+}
+
+.email-box input {
+    border: none;
+    background: transparent;
+    padding: 10px 16px;
+    color: white;
+    flex: 1;
+    outline: none;
+    font-size: 14px;
+}
+
+.email-box button {
+    border: none;
+    background: radial-gradient(circle at top, #3b3f46, #0b0d12);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 18.91px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.email-box button:hover {
+    opacity: 0.85;
+}
+.copyright{
+    font-family: 'Rubik', sans-serif;
+font-weight: 300;
+font-style: Light;
+font-size: 15.58px;
+line-height: 100%;
+
+}
+@media (max-width: 1199px) {
+
+    .email-box {
+        min-width: 260px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .footer-bottom-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .contact-area {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .email-box {
+        width: 100%;
+        min-width: auto;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .footer-bottom-inner {
+        align-items: stretch;
+    }
+
+    .contact-area {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .contact-text {
+        font-size: 13px;
+    }
+
+    .email-box {
+        width: 100%;
+    }
+
+    .email-box input {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+
+    .email-box button {
+        font-size: 13px;
+        padding: 10px 18px;
+    }
+
 }
