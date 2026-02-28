@@ -440,16 +440,14 @@ body{
     color:white;
 }
 
-/* container width large screen */
-
+ 
 @media(min-width:1200px){
     .features-section .container{
         max-width:1350px;
     }
 }
 
-/* ================= TITLES ================= */
-
+ 
 .feature-title{
     font-weight:300;
     font-size:48px;
@@ -475,8 +473,7 @@ body{
     line-height:1.9;
 }
 
-/* ================= CARD ================= */
-
+ 
 .feature-card{
     width:100%;
     max-width:430px;
@@ -539,8 +536,7 @@ body{
     color:#E2E2E2;
 }
 
-/* ================= TABLET ================= */
-
+ 
 @media(max-width:991px){
 
     .feature-title{
@@ -585,8 +581,7 @@ body{
     }
 }
 
-/* ================= MOBILE ================= */
-
+ 
 @media(max-width:576px){
 
     .feature-title{
@@ -630,8 +625,7 @@ body{
     }
 }
 
-/* ================= SMALL MOBILE ================= */
-
+ 
 @media(max-width:380px){
 
     .feature-card{
