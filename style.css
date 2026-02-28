@@ -1,5 +1,5 @@
 body {
-
+    
     font-family: 'Poppins', sans-serif;
     background: #000;
     color: white;
@@ -915,7 +915,6 @@ body {
     .payout-title {
         text-align: center;
     }
-
     .star1 {
         width: 85px;
         height: 85px;
@@ -923,8 +922,8 @@ body {
         clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%,
                 50% 100%, 40% 60%, 0% 50%, 40% 40%);
         bottom: 85%;
-    }
-
+     }
+    
 }
 
 
@@ -979,9 +978,8 @@ body {
         width: 45px;
         height: 45px;
         margin-top: 25px !important;
-        margin-right: 130px !important;
+        margin-right:   130px !important;
     }
-
     .star1 {
         width: 50px;
         height: 50px;
@@ -989,8 +987,8 @@ body {
         clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%,
                 50% 100%, 40% 60%, 0% 50%, 40% 40%);
         bottom: 85%;
-        left: 50%;
-    }
+        left: 50% ;
+     }
 }
 
 
@@ -1017,12 +1015,11 @@ body {
         width: 34px;
         height: 34px;
     }
-
     .circle-arrow {
         width: 45px;
         height: 45px;
         margin-top: 25px !important;
-        margin-right: 70px !important;
+        margin-right:   70px !important;
     }
 }
 
@@ -1447,7 +1444,6 @@ body {
         right: -65px;
         top: 400px;
     }
-
     .router-star {
         width: 50px;
         height: 50px;
@@ -1671,13 +1667,13 @@ body {
     padding: 30px;
     border-radius: 22px;
     color: white;
-    height: 100%;
     background: linear-gradient(135deg, #39316C, #150F3D);
     border: 1px solid rgba(214, 207, 255, 0.3);
     transition: 0.3s;
+    margin: auto;
 }
 
-.feature-card:hover {
+.features-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 20px 60px rgba(120, 80, 255, 0.3);
 }
@@ -1783,7 +1779,6 @@ body {
     }
 
 }
-
 .testimonial-section {
     padding: 120px 0;
     position: relative;
