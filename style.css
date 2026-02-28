@@ -158,7 +158,8 @@ body {
 
 .nav-center {
     display: flex;
-    gap: 50px
+    gap: 50px;
+    margin-left: -300px;
 }
 
 .nav-center a {
@@ -411,7 +412,7 @@ body {
     }
 
     .star4 {
-        top: 500px;
+        top: px;
         right: 1px
     }
 
@@ -2017,8 +2018,7 @@ body {
 }
 
 .custom-support {
-    width: 100%;
-    max-width: 1600px;
+    
     border-radius: 180px 184px 0 0;
     box-shadow:
         0 -11px #7C66FF,
@@ -2484,6 +2484,19 @@ body {
     line-height: 37.01px;
     letter-spacing: 0px;
 }
+.glow-rectangle {
+    display: block;
+        height: 124px;
+    background: #000000;
+
+     border-radius:  0 0 184px 184px;
+   
+
+     
+    box-shadow:
+        0px 11px 4px #7C66FF,
+        0px 51px 100px rgba(1, 0, 10, 0.25);
+}
 
 
 .api-image-wrapper {
@@ -2559,6 +2572,15 @@ body {
     }
 
 }
+@media (max-width: 480px) {
+
+    .glow-rectangle {
+        border-radius:  0 0 50px 50px ;
+        
+    }
+
+}
+
 
 .faq-section {
     padding: 120px 0;
