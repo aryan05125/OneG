@@ -283,6 +283,7 @@ body{
     .star2{top:400px;right:260px}
     .star3{top:450px;right:180px}
     .star4{top:520px;right:130px}
+    
 
 }
 
@@ -316,23 +317,39 @@ body{
     .star3{top:380px;right:10px}
     .star4{top:430px;right:1px}
     .divider-vertical{display:none}
+    .plus-small{
+        position:absolute;
+        width:25px;
+        height:25px;
+        bottom:20px;
+        left:40px;
+        z-index:3;
+        top: 50%px !important;
+    }
 }
 .money-section {
     background: #000;
     color: white;
+    overflow: hidden;
 }
 
 .money-text {
     color: #aaa;
     letter-spacing: 1px;
     font-size: 14px;
+    line-height: 1.6;
+}
+
+.plus-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .plus-group span {
     display: inline-block;
     width: 12px;
     height: 12px;
-    margin-right: 10px;
     position: relative;
 }
 
@@ -355,7 +372,7 @@ body{
     width: 100%;
     height: 1px;
 }
- 
+
 .stats-line {
     display: flex;
     align-items: center;
@@ -381,6 +398,52 @@ body{
     font-size: 20px;
     color: #aaa;
     margin: 0 10px;
+}
+
+@media (max-width: 991px) {
+
+    .stats-line {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .money-text {
+        text-align: center;
+    }
+
+    .plus-group {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .money-text {
+        font-size: 13px;
+    }
+
+    .stat-number {
+        font-size: 22px;
+    }
+
+    .stat-label {
+        font-size: 12px;
+        margin-right: 6px;
+    }
+
+    .stat-plus {
+        margin: 0 6px;
+    }
+
+    .stats-line {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .plus-group span {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 
