@@ -1137,222 +1137,222 @@
         </div>
 
     </section>
-   <footer class="footer-section py-5 mt-5">
-    <div class="container py-5 mt-5">
+    <footer class="footer-section py-5 mt-5">
+        <div class="container py-5 mt-5">
 
-        <div class="row gy-5">
+            <div class="row gy-5">
 
-            <div class="col-lg-3 col-md-6">
-                <h4 class="footer-logo">one<span>g</span></h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-logo">one<span>g</span></h4>
 
-                <ul class="footer-links mt-4">
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <h5 class="footer-title">Navigation</h5>
-
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <h5 class="footer-title">Products</h5>
-
-                <ul class="footer-links">
-                    <li><a href="#">Payout</a></li>
-                    <li><a href="#">Secure ID</a></li>
-                    <li><a href="#">Payment Gateway Routing</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <h5 class="footer-title">Legal</h5>
-
-                <ul class="footer-links">
-                    <li><a href="#">Term Of Services</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Licensed & Regulation</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="footer-bottom mt-5">
-            <div class="footer-bottom-inner">
-
-                <div class="copyright">
-                    © Copyright 2026 Onepg
+                    <ul class="footer-links mt-4">
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
                 </div>
 
-                <div class="contact-area">
-                    <div class="contact-text">Contact Us</div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Navigation</h5>
 
-                    <div class="email-box">
-                        <input type="email" placeholder="Type In Your Email">
-                        <button>Send</button>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Products</h5>
+
+                    <ul class="footer-links">
+                        <li><a href="#">Payout</a></li>
+                        <li><a href="#">Secure ID</a></li>
+                        <li><a href="#">Payment Gateway Routing</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Legal</h5>
+
+                    <ul class="footer-links">
+                        <li><a href="#">Term Of Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Licensed & Regulation</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom mt-5">
+                <div class="footer-bottom-inner">
+
+                    <div class="copyright">
+                        © Copyright 2026 Onepg
                     </div>
+
+                    <div class="contact-area">
+                        <div class="contact-text">Contact Us</div>
+
+                        <div class="email-box">
+                            <input type="email" placeholder="Type In Your Email">
+                            <button>Send</button>
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
 
-    </div>
-</footer>
+        </div>
+    </footer>
     <script>
 
-            const stack = document.querySelector(".image-stack");
-            let cards = Array.from(document.querySelectorAll(".stack-img"));
+        const stack = document.querySelector(".image-stack");
+        let cards = Array.from(document.querySelectorAll(".stack-img"));
 
-            let isDown = false;
-            let startX = 0;
-            let currentX = 0;
-            let velocity = 0;
-            let lastX = 0;
-            let raf;
+        let isDown = false;
+        let startX = 0;
+        let currentX = 0;
+        let velocity = 0;
+        let lastX = 0;
+        let raf;
 
-            function setTransforms(x = 0) {
+        function setTransforms(x = 0) {
 
-                const spread = x * 0.45;
+            const spread = x * 0.45;
 
-                cards[0].style.transform =
-                    `translate3d(${spread}px,${-spread * 0.15}px,80px)
+            cards[0].style.transform =
+                `translate3d(${spread}px,${-spread * 0.15}px,80px)
                  rotateY(${spread * 0.12}deg)
                  rotateZ(${spread * 0.05}deg)`;
 
-                cards[1].style.transform =
-                    `translate3d(${spread - 40}px,${20 - spread * 0.12}px,40px)
+            cards[1].style.transform =
+                `translate3d(${spread - 40}px,${20 - spread * 0.12}px,40px)
                  rotateY(${spread * 0.08}deg)
                  rotateZ(${spread * 0.08 - 8}deg)`;
 
-                cards[2].style.transform =
-                    `translate3d(${spread - 80}px,${40 - spread * 0.12}px,0px)
+            cards[2].style.transform =
+                `translate3d(${spread - 80}px,${40 - spread * 0.12}px,0px)
                  rotateY(${spread * 0.05}deg)
                  rotateZ(${spread * 0.1 - 16}deg)`;
+        }
+
+        function inertia() {
+
+            currentX += velocity;
+            velocity *= 0.92;
+
+            setTransforms(currentX);
+
+            if (Math.abs(velocity) > 0.5) {
+                raf = requestAnimationFrame(inertia);
+            } else {
+                snapBack();
             }
+        }
 
-            function inertia() {
+        function snapBack() {
 
-                currentX += velocity;
-                velocity *= 0.92;
-
-                setTransforms(currentX);
-
-                if (Math.abs(velocity) > 0.5) {
-                    raf = requestAnimationFrame(inertia);
-                } else {
-                    snapBack();
-                }
-            }
-
-            function snapBack() {
-
-                currentX = 0;
-                setTransforms(0);
-
-                setTimeout(() => {
-                    const first = cards.shift();
-                    cards.push(first);
-
-                    cards.forEach((c, i) => c.style.zIndex = 3 - i);
-                }, 280);
-            }
-
-            stack.addEventListener("mousedown", e => {
-                isDown = true;
-                startX = e.clientX;
-                lastX = e.clientX;
-                velocity = 0;
-                stack.style.cursor = "grabbing";
-            });
-
-            window.addEventListener("mouseup", () => {
-                if (!isDown) return;
-                isDown = false;
-                stack.style.cursor = "grab";
-                cancelAnimationFrame(raf);
-                inertia();
-            });
-
-            window.addEventListener("mousemove", e => {
-
-                const rect = stack.getBoundingClientRect();
-                const px = ((e.clientX - rect.left) / rect.width) * 100;
-                const py = ((e.clientY - rect.top) / rect.height) * 100;
-
-                stack.style.setProperty("--gx", px + "%");
-                stack.style.setProperty("--gy", py + "%");
-
-                if (!isDown) return;
-
-                currentX = e.clientX - startX;
-                velocity = e.clientX - lastX;
-                lastX = e.clientX;
-
-                currentX = Math.max(-220, Math.min(220, currentX));
-
-                setTransforms(currentX);
-            });
-
-            stack.addEventListener("touchstart", e => {
-                isDown = true;
-                startX = e.touches[0].clientX;
-                lastX = startX;
-                velocity = 0;
-            });
-
-            window.addEventListener("touchend", () => {
-                if (!isDown) return;
-                isDown = false;
-                inertia();
-            });
-
-            window.addEventListener("touchmove", e => {
-                if (!isDown) return;
-
-                const x = e.touches[0].clientX;
-
-                currentX = x - startX;
-                velocity = x - lastX;
-                lastX = x;
-
-                currentX = Math.max(-220, Math.min(220, currentX));
-
-                setTransforms(currentX);
-            });
-
-            stack.addEventListener("mousemove", e => {
-
-                const rect = stack.getBoundingClientRect();
-
-                const centerX = rect.width / 2;
-                const centerY = rect.height / 2;
-
-                const mouseX = e.clientX - rect.left;
-                const mouseY = e.clientY - rect.top;
-
-                const rotateY = (mouseX - centerX) / 20;
-                const rotateX = (centerY - mouseY) / 20;
-
-                stack.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-            });
-
-            stack.addEventListener("mouseleave", () => {
-                stack.style.transform = "rotateX(0deg) rotateY(0deg)";
-            });
-
+            currentX = 0;
             setTransforms(0);
 
-        </script>
+            setTimeout(() => {
+                const first = cards.shift();
+                cards.push(first);
+
+                cards.forEach((c, i) => c.style.zIndex = 3 - i);
+            }, 280);
+        }
+
+        stack.addEventListener("mousedown", e => {
+            isDown = true;
+            startX = e.clientX;
+            lastX = e.clientX;
+            velocity = 0;
+            stack.style.cursor = "grabbing";
+        });
+
+        window.addEventListener("mouseup", () => {
+            if (!isDown) return;
+            isDown = false;
+            stack.style.cursor = "grab";
+            cancelAnimationFrame(raf);
+            inertia();
+        });
+
+        window.addEventListener("mousemove", e => {
+
+            const rect = stack.getBoundingClientRect();
+            const px = ((e.clientX - rect.left) / rect.width) * 100;
+            const py = ((e.clientY - rect.top) / rect.height) * 100;
+
+            stack.style.setProperty("--gx", px + "%");
+            stack.style.setProperty("--gy", py + "%");
+
+            if (!isDown) return;
+
+            currentX = e.clientX - startX;
+            velocity = e.clientX - lastX;
+            lastX = e.clientX;
+
+            currentX = Math.max(-220, Math.min(220, currentX));
+
+            setTransforms(currentX);
+        });
+
+        stack.addEventListener("touchstart", e => {
+            isDown = true;
+            startX = e.touches[0].clientX;
+            lastX = startX;
+            velocity = 0;
+        });
+
+        window.addEventListener("touchend", () => {
+            if (!isDown) return;
+            isDown = false;
+            inertia();
+        });
+
+        window.addEventListener("touchmove", e => {
+            if (!isDown) return;
+
+            const x = e.touches[0].clientX;
+
+            currentX = x - startX;
+            velocity = x - lastX;
+            lastX = x;
+
+            currentX = Math.max(-220, Math.min(220, currentX));
+
+            setTransforms(currentX);
+        });
+
+        stack.addEventListener("mousemove", e => {
+
+            const rect = stack.getBoundingClientRect();
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            const rotateY = (mouseX - centerX) / 20;
+            const rotateX = (centerY - mouseY) / 20;
+
+            stack.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+        });
+
+        stack.addEventListener("mouseleave", () => {
+            stack.style.transform = "rotateX(0deg) rotateY(0deg)";
+        });
+
+        setTransforms(0);
+
+    </script>
     <script>
         function toggleMenu() {
             document.getElementById("mobileMenu").classList.toggle("active");
