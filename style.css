@@ -625,6 +625,16 @@ body {
     color: white;
     transition: .3s;
 }
+.visit-btn1 {
+    width: 218px;
+    height: 55px;
+    margin-top: auto;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #aaa;
+    color: white;
+    transition: .3s;
+}
 
 .visit-btn:hover {
     border-color: #9b5cff;
@@ -698,6 +708,9 @@ body {
     .visit-btn {
         margin: 25px auto 0;
     }
+    .visit-btn1 {
+        margin: 25px auto 0;
+    }
 }
 
 @media(max-width:767px) {
@@ -747,10 +760,11 @@ body {
         line-height: 1.6;
     }
 
+     
     .visit-btn {
-        width: 180px;
         height: 48px;
-        font-size: 14px;
+        font-size: 13px;
+        margin-left: 40px !important;
     }
 }
 
@@ -778,7 +792,15 @@ body {
         width: 160px;
         height: 44px;
         font-size: 13px;
+        margin-left: 40px !important;
     }
+    .visit-btn1 {
+        width: 160px;
+        height: 44px;
+        font-size: 13px;
+        margin-left: 4px !important;
+    }
+ 
 }
 
 .payout-section {
@@ -1255,8 +1277,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    /* padding: 5px 5px; */
-    border-radius: 12px;
+     border-radius: 12px;
     color: #fff;
     width: 283px;
     height: 67px;
